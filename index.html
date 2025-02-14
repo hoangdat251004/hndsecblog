@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="homeButton">Homepage</a>
+            <span id="userSection">
+                <a href="login.html" id="loginLink">Login</a>
+                <a href="register.html" id="registerLink">Register</a>
+                <span id="userInfo" style="display: none;"></span>
+                <a href="#" id="logoutLink" style="display: none;">Logout</a>
+            </span>
+        </nav>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    
+    <main>
+        <h2>Recent Posts</h2>
+        <div id="postList"></div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
