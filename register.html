@@ -7,22 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Homepage</a>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Register</h2>
-        <form id="registerForm">
-            <label>Username: <input type="text" id="newUsername"></label><br>
-            <label>Password: <input type="password" id="newPassword"></label><br>
-            <button type="submit">Register</button>
-        </form>
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <h2>Register</h2>
+    <form id="registerForm">
+        <input type="text" id="regUsername" placeholder="Username" required>
+        <input type="password" id="regPassword" placeholder="Password" required>
+        <button type="submit">Register</button>
+    </form>
     <script src="auth.js"></script>
 </body>
 </html>

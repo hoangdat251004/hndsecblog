@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <a href="index.html" id="homeButton">Homepage</a>
+            <a href="index.html" class="home-btn">Homepage</a>
             <span id="userSection">
                 <a href="login.html" id="loginLink">Login</a>
                 <a href="register.html" id="registerLink">Register</a>
@@ -17,15 +17,15 @@
                 <a href="#" id="logoutLink" style="display: none;">Logout</a>
             </span>
         </nav>
-        <h1>Welcome to My Blog</h1>
     </header>
     
     <main>
         <h2>Recent Posts</h2>
         <div id="postList"></div>
+        <button id="createPostBtn" style="display: none;" onclick="window.location.href='newpost.html'">Create New Post</button>
     </main>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
     <script src="auth.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
